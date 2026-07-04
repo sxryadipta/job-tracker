@@ -1,0 +1,8 @@
+{
+  "companies": [
+    { "name": "Stripe", "ats": "greenhouse", "token": "stripe" },
+    { "name": "Notion", "ats": "ashby", "token": "notion" },
+    { "name": "Ramp", "ats": "ashby", "token": "ramp" },
+    { "name": "Netflix", "ats": "lever", "token": "netflix" }
+  ]
+}

@@ -3,6 +3,19 @@
     { "name": "Stripe", "ats": "greenhouse", "token": "stripe" },
     { "name": "Notion", "ats": "ashby", "token": "notion" },
     { "name": "Ramp", "ats": "ashby", "token": "ramp" },
-    { "name": "Netflix", "ats": "lever", "token": "netflix" }
+    { "name": "Netflix", "ats": "lever", "token": "netflix" },
+    { "name": "Meesho", "ats": "lever", "token": "meesho" },
+    { "name": "Groww", "ats": "greenhouse", "token": "groww" },
+    { "name": "Postman", "ats": "greenhouse", "token": "postman" },
+    { "name": "CRED", "ats": "lever", "token": "cred" },
+    { "name": "Zeta", "ats": "lever", "token": "zeta" },
+    { "name": "Slice", "ats": "greenhouse", "token": "slice" },
+    { "name": "PhonePe", "ats": "greenhouse", "token": "phonepe" },
+    { "name": "Dream Sports", "ats": "lever", "token": "dreamsports" },
+    { "name": "MindTickle", "ats": "lever", "token": "mindtickle" },
+    { "name": "HighRadius", "ats": "greenhouse", "token": "highradius" },
+    { "name": "Druva", "ats": "greenhouse", "token": "druva" },
+    { "name": "kiwi", "ats":"ashby", "token":"ashby"},
+    {"name": "naukri", "ats":"greenhouse", "token":"naukri"}
   ]
 }

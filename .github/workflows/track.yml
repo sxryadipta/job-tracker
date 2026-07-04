@@ -1,0 +1,34 @@
+name: Track Jobs
+
+on:
+  schedule:
+    - cron: '*/20 * * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - run: npm install
+
+      - run: npm run build
+        env:
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "job-tracker-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add docs/ state/
+          git commit -m "Update job listings [skip ci]" || echo "No changes to commit"
+          git push

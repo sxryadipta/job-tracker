@@ -1,0 +1,135 @@
+:root {
+  --bg: #0f1115;
+  --card-bg: #1a1d24;
+  --card-hover: #21252e;
+  --text: #e8e9ed;
+  --text-dim: #9598a3;
+  --accent: #6c8cff;
+  --new: #34d399;
+  --intern: #fbbf24;
+  --border: #2a2e38;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif;
+  line-height: 1.5;
+}
+
+.topnav {
+  display: flex;
+  gap: 4px;
+  padding: 16px 32px;
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  background: var(--bg);
+  z-index: 10;
+}
+
+.topnav a {
+  color: var(--text-dim);
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background 0.15s, color 0.15s;
+}
+
+.topnav a:hover { color: var(--text); background: var(--card-bg); }
+.topnav a.active { color: var(--accent); background: var(--card-bg); }
+
+header {
+  padding: 32px 32px 16px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+header h1 { font-size: 26px; margin: 0 0 6px; }
+.updated { color: var(--text-dim); font-size: 13px; margin: 0; }
+.note { color: var(--intern); font-size: 13px; margin-top: 8px; }
+
+.job-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 14px;
+  padding: 16px 32px 48px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.job-card {
+  display: block;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  text-decoration: none;
+  color: var(--text);
+  transition: background 0.15s, transform 0.1s;
+}
+
+.job-card:hover { background: var(--card-hover); transform: translateY(-2px); }
+
+.job-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.company { font-size: 13px; color: var(--text-dim); font-weight: 600; text-transform: uppercase; letter-spacing: 0.4px; }
+
+.badges { display: flex; gap: 6px; }
+
+.badge {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+.badge-new { background: rgba(52, 211, 153, 0.15); color: var(--new); }
+.badge-intern { background: rgba(251, 191, 36, 0.15); color: var(--intern); }
+
+.title { font-size: 16px; margin: 0 0 10px; font-weight: 600; }
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: var(--text-dim);
+}
+
+.empty { color: var(--text-dim); padding: 40px 0; }
+
+.landing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 16px 32px 48px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.landing-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 32px;
+  text-decoration: none;
+  color: var(--text);
+  text-align: center;
+  transition: background 0.15s, transform 0.1s;
+}
+
+.landing-card:hover { background: var(--card-hover); transform: translateY(-3px); }
+.landing-card h2 { margin: 0 0 12px; font-size: 18px; }
+.landing-card .count { font-size: 40px; font-weight: 700; color: var(--accent); margin: 0 0 8px; }
+.landing-card .desc { color: var(--text-dim); font-size: 13px; margin: 0; }

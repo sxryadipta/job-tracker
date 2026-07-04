@@ -1,1 +1,82 @@
-[]
+[
+  {
+    "id": "greenhouse-groww-4774341101",
+    "company": "Groww",
+    "title": "Copy Writer - Intern",
+    "location": "Bengaluru-VTP, India",
+    "url": "https://job-boards.eu.greenhouse.io/groww/jobs/4774341101",
+    "source": "greenhouse",
+    "postedAt": "2026-02-22T21:32:21-05:00",
+    "tags": {
+      "relevant": true,
+      "delhiNCR": false,
+      "india": true,
+      "intern": true
+    },
+    "isNew": true
+  },
+  {
+    "id": "greenhouse-groww-4774342101",
+    "company": "Groww",
+    "title": "Graphic Designer - Intern",
+    "location": "Bengaluru-VTP, India",
+    "url": "https://job-boards.eu.greenhouse.io/groww/jobs/4774342101",
+    "source": "greenhouse",
+    "postedAt": "2026-02-22T21:32:24-05:00",
+    "tags": {
+      "relevant": true,
+      "delhiNCR": false,
+      "india": true,
+      "intern": true
+    },
+    "isNew": true
+  },
+  {
+    "id": "greenhouse-groww-4780793101",
+    "company": "Groww",
+    "title": "Intern - Growth (AI & MarTech)",
+    "location": "Bengaluru-VTP, India",
+    "url": "https://job-boards.eu.greenhouse.io/groww/jobs/4780793101",
+    "source": "greenhouse",
+    "postedAt": "2026-06-05T01:58:03-04:00",
+    "tags": {
+      "relevant": true,
+      "delhiNCR": false,
+      "india": true,
+      "intern": true
+    },
+    "isNew": true
+  },
+  {
+    "id": "greenhouse-groww-4819749101",
+    "company": "Groww",
+    "title": "Internship - Content ",
+    "location": "Bengaluru-VTP, India",
+    "url": "https://job-boards.eu.greenhouse.io/groww/jobs/4819749101",
+    "source": "greenhouse",
+    "postedAt": "2026-06-04T05:15:59-04:00",
+    "tags": {
+      "relevant": true,
+      "delhiNCR": false,
+      "india": true,
+      "intern": true
+    },
+    "isNew": true
+  },
+  {
+    "id": "greenhouse-groww-4771440101",
+    "company": "Groww",
+    "title": "Video Editor Intern",
+    "location": "Bengaluru-VTP, India",
+    "url": "https://job-boards.eu.greenhouse.io/groww/jobs/4771440101",
+    "source": "greenhouse",
+    "postedAt": "2026-02-22T21:32:04-05:00",
+    "tags": {
+      "relevant": true,
+      "delhiNCR": false,
+      "india": true,
+      "intern": true
+    },
+    "isNew": true
+  }
+]

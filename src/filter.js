@@ -18,13 +18,23 @@ const NCR_LOCATIONS = [
   'gurugram', 'gurgaon', 'ncr', 'ghaziabad', 'faridabad',
 ];
 
+// Broad enough to catch any India-based posting, across all major hiring hubs
+const INDIA_LOCATIONS = [
+  'india', 'bangalore', 'bengaluru', 'hyderabad', 'pune', 'chennai',
+  'mumbai', 'delhi', 'new delhi', 'noida', 'gurugram', 'gurgaon', 'ncr',
+  'ghaziabad', 'faridabad', 'kolkata', 'ahmedabad', 'jaipur', 'kochi',
+  'chandigarh', 'indore', 'coimbatore', 'thiruvananthapuram', 'mysore',
+  'remote india', 'india (remote)',
+];
+
 export function tagJob(job) {
   const title = job.title || '';
   const location = (job.location || '').toLowerCase();
 
   const relevant = ROLE_PATTERNS.some(re => re.test(title));
   const delhiNCR = NCR_LOCATIONS.some(loc => location.includes(loc));
+  const india = INDIA_LOCATIONS.some(loc => location.includes(loc));
   const intern = /intern/i.test(title);
 
-  return { ...job, tags: { relevant, delhiNCR, intern } };
+  return { ...job, tags: { relevant, delhiNCR, india, intern } };
 }

@@ -36,7 +36,7 @@ async function build() {
   console.log('Fetching Delhi NCR discovery feed (Adzuna)...');
   const ncrRaw = await fetchAdzunaDelhiNCR(process.env.ADZUNA_APP_ID, process.env.ADZUNA_APP_KEY);
 
-  const trackedTagged = trackedRaw.map(tagJob).filter(j => j.tags.relevant);
+  const trackedTagged = trackedRaw.map(tagJob).filter(j => j.tags.relevant && j.tags.india);
   const ncrTagged = ncrRaw.map(tagJob).filter(j => j.tags.relevant && j.tags.delhiNCR);
 
   const state = loadState();

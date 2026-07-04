@@ -13,7 +13,7 @@
       "india": true,
       "intern": true
     },
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "greenhouse-groww-4774342101",
@@ -29,7 +29,7 @@
       "india": true,
       "intern": true
     },
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "greenhouse-groww-4780793101",
@@ -45,7 +45,7 @@
       "india": true,
       "intern": true
     },
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "greenhouse-groww-4819749101",
@@ -61,7 +61,7 @@
       "india": true,
       "intern": true
     },
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "greenhouse-groww-4771440101",
@@ -77,6 +77,6 @@
       "india": true,
       "intern": true
     },
-    "isNew": true
+    "isNew": false
   }
 ]

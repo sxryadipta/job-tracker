@@ -12,7 +12,7 @@
       "delhiNCR": false,
       "intern": false
     },
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "greenhouse-stripe-7532256",
@@ -27,7 +27,7 @@
       "delhiNCR": false,
       "intern": true
     },
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "greenhouse-stripe-7991718",
@@ -42,7 +42,7 @@
       "delhiNCR": false,
       "intern": false
     },
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "greenhouse-stripe-7718947",
@@ -57,7 +57,7 @@
       "delhiNCR": false,
       "intern": false
     },
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "ashby-notion-5b15697c-fa91-4511-9482-c98a6ff29f90",
@@ -72,7 +72,7 @@
       "delhiNCR": false,
       "intern": true
     },
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "ashby-notion-7e6dc7fe-7ddd-42c1-8928-13f7bddb9ec9",
@@ -87,7 +87,7 @@
       "delhiNCR": false,
       "intern": false
     },
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "ashby-notion-a6311f97-4850-4674-a5f3-d9fe5f6f2555",
@@ -102,7 +102,7 @@
       "delhiNCR": false,
       "intern": false
     },
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "ashby-ramp-67fadb77-43d8-4449-954b-d4cf2c6d3b8b",
@@ -117,6 +117,6 @@
       "delhiNCR": false,
       "intern": true
     },
-    "isNew": true
+    "isNew": false
   }
 ]

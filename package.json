@@ -1,0 +1,11 @@
+{
+  "name": "job-tracker",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node src/build.js"
+  },
+  "dependencies": {
+    "p-limit": "^5.0.0"
+  }
+}

@@ -16,6 +16,7 @@
     { "name": "HighRadius", "ats": "greenhouse", "token": "highradius" },
     { "name": "Druva", "ats": "greenhouse", "token": "druva" },
     { "name": "kiwi", "ats":"ashby", "token":"ashby"},
-    {"name": "naukri", "ats":"greenhouse", "token":"naukri"}
+    {"name": "naukri", "ats":"greenhouse", "token":"naukri"},
+    { "name": "Razorpay", "ats": "greenhouse", "token": "razorpaysoftwareprivatelimited" }
   ]
 }

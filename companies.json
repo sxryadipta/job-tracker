@@ -17,6 +17,18 @@
     { "name": "Druva", "ats": "greenhouse", "token": "druva" },
     { "name": "kiwi", "ats":"ashby", "token":"ashby"},
     {"name": "naukri", "ats":"greenhouse", "token":"naukri"},
-    { "name": "Razorpay", "ats": "greenhouse", "token": "razorpaysoftwareprivatelimited" }
+    { "name": "Razorpay", "ats": "greenhouse", "token": "razorpaysoftwareprivatelimited" },
+    { "name": "Swiggy", "ats": "smartrecruiters", "token": "swiggy" },
+    { "name": "Freshworks", "ats": "smartrecruiters", "token": "freshworks" },
+    { "name": "Unacademy", "ats": "smartrecruiters", "token": "unacademy" },
+    { "name": "Whatfix", "ats": "smartrecruiters", "token": "whatfix" },
+    { "name": "Cars24", "ats": "smartrecruiters", "token": "cars24" },
+    { "name": "NoBroker", "ats": "smartrecruiters", "token": "nobroker" },
+    { "name": "Freecharge", "ats": "smartrecruiters", "token": "freecharge" },
+    { "name": "Paytm", "ats": "lever", "token": "paytm" },
+    { "name": "BlueStone", "ats": "greenhouse", "token": "bluestone" },
+    { "name": "Porter", "ats": "lever", "token": "porter" },
+    { "name": "KredX", "ats": "smartrecruiters", "token": "kredx" },
+    { "name": "Lendingkart", "ats": "smartrecruiters", "token": "lendingkart" }
   ]
 }

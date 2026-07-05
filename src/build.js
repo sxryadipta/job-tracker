@@ -3,6 +3,9 @@ import pLimit from 'p-limit';
 import { fetchGreenhouse } from './adapters/greenhouse.js';
 import { fetchLever } from './adapters/lever.js';
 import { fetchAshby } from './adapters/ashby.js';
+import { fetchWorkable } from './adapters/workable.js';
+import { fetchSmartRecruiters } from './adapters/smartrecruiters.js';
+import { fetchWorkday } from './adapters/workday.js';
 import { fetchAdzunaDelhiNCR } from './adapters/adzuna.js';
 import { tagJob } from './filter.js';
 import { loadState, saveState, diffAndMark } from './state.js';
@@ -13,7 +16,14 @@ const limit = pLimit(15);
 async function fetchAllTrackedCompanies() {
   const { companies } = JSON.parse(readFileSync('companies.json', 'utf-8'));
 
-  const fetchers = { greenhouse: fetchGreenhouse, lever: fetchLever, ashby: fetchAshby };
+  const fetchers = {
+  greenhouse: fetchGreenhouse,
+  lever: fetchLever,
+  ashby: fetchAshby,
+  workable: fetchWorkable,
+  smartrecruiters: fetchSmartRecruiters,
+  workday: fetchWorkday,
+  };
 
   const results = await Promise.allSettled(
     companies.map(c => limit(() => {
